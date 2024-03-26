@@ -21,7 +21,7 @@
                     <xsl:value-of select="tei:TEI[@xml:id='fascicoli']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:type='sub']" />
                 </h2>
                 <figure class="statua">
-                    <a href="pagina.html">
+                    <a href="index.html">
                         <img src="img_ciano1.jpeg" />
                     </a>
                 </figure>

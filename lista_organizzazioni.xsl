@@ -53,7 +53,7 @@
                         </div>
                         <ul class="navbar">
                             <h2>Informazioni sui documenti</h2>
-                            <li><a href="pagina.html">Torna alla Home Page</a></li>
+                            <li><a href="index.html">Torna alla Home Page</a></li>
                             <li><a href="pagina_persone.html">Vai alla lista delle persone</a></li>
                             <li><a href="pagina_posti.html">Vai alla lista dei posti</a></li>
                             <li><a href="pagina_oggetti.html">Vai alla lista delle navi</a></li>

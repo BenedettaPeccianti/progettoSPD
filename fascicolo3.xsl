@@ -19,7 +19,7 @@
                     <xsl:value-of select="tei:TEI[@xml:id='terzo_fascicolo']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:id='pagina3']" />
                 </h1>
                 <figure class="statua">
-                    <a href="pagina.html">
+                    <a href="index.html">
                         <img src="img_ciano1.jpeg" />
                     </a>
                 </figure>
@@ -69,7 +69,7 @@
                         </div>
                         <ul class="navbar">
                             <h2>Informazioni sui documenti</h2>
-                            <li><a href="pagina.html">Torna alla Home Page</a></li>
+                            <li><a href="index.html">Torna alla Home Page</a></li>
                             <li><a href="pagina_persone.html">Vai alla lista delle persone</a></li>
                             <li><a href="pagina_organizzazioni.html">Vai alla lista delle organizzazioni</a></li>
                             <li><a href="pagina_posti.html">Vai alla lista dei luoghi</a></li>

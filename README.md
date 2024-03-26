@@ -1,8 +1,9 @@
-# Progetto di Storia Pubblica Digitale A.A. 21-22
-Il progetto "Codifica di Testi" è stato realizzato durante l'anno accademico 2021/2022 per l'esame del professor <b>Angelo Mario del Grosso </b>, per la laurea in <b> Informatica Umanistica</b> dell'<b>Università di Pisa</b> da:
+# Progetto di Storia Pubblica Digitale A.A. 23-24
+Il progetto "Storia Pubblica Digitale è stato realizzato durante l'anno accademico 2023/2023 per l'esame della professoressa professor <b>Enrica Salvatori </b>, per la laurea magistrale in <b> Informatica Umanistica</b> dell'<b>Università di Pisa</b> da:
 
 - Benedetta Peccianti, matricola 600695
-- Martina Tazzini, matricola 585137
+- Federica Papa, matricola 597084
+- Irene Poli
 
 Per la corretta riuscita del progetto sono stati utilizzati due strumenti di validazione:
 
@@ -19,3 +20,5 @@ Per la corretta riuscita del progetto sono stati utilizzati due strumenti di val
  
 ```
 
+# Per poter visualizzare l'anteprima del progetto è sufficiente
+https://benedettapeccianti.github.io/progettoSPD/

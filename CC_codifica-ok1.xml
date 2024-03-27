@@ -802,13 +802,13 @@
             <surface n="3" xml:id="statua1_ciano_pag3">
                 <graphic url='statua1_ciano_pag3.jpeg' width='588.6px' height='823.6px' />
                 <!--modulo 41-->
-                <zone ulx="497" uly="101" lrx="533" lry="113" xml:id="modulo3" />
-                <zone ulx="349" uly="127" lrx="564" lry="166" xml:id="data3" />
-                <zone ulx="333" uly="203" lrx="565" lry="266" xml:id="destinatario3" />
-                <zone ulx="22" uly="102" lrx="250" lry="217" xml:id= "stemma3" />
+                <zone ulx="487" uly="6" lrx="542" lry="25" xml:id="modulo3" />
+                <zone ulx="344" uly="36" lrx="565" lry="82" xml:id="data3" />
+                <zone ulx="333" uly="109" lrx="574" lry="181" xml:id="destinatario3" />
+                <zone ulx="16" uly="15" lrx="259" lry="135" xml:id= "stemma3" />
                 <!--il mittente è MARISEGREGE (Ufficio del segretario generale - Coordinamento del Ministero della difesa – Marina) -->
-                <zone ulx="69" uly="237" lrx="207" lry="249" xml:id= "mittente3" />
-                <zone ulx="30" uly="161" lrx="210" lry="202" xml:id="numero_protocollo3" />
+                <zone ulx="67" uly="142" lrx="212" lry="163" xml:id= "mittente3" />
+                <zone ulx="26" uly="168" lrx="220" lry="199" xml:id="numero_protocollo3" />
                 <zone ulx="27" uly="201" lrx="557" lry="250" xml:id="argomento3" />
                 <zone ulx="164" uly="284" lrx="543" lry="411" xml:id="testo3" />
                 <zone ulx="11" uly="248" lrx="129" lry="306" xml:id="decretazione3" />

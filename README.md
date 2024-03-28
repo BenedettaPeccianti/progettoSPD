@@ -3,7 +3,7 @@ Il progetto "Storia Pubblica Digitale è stato realizzato durante l'anno accadem
 
 - Benedetta Peccianti, matricola 600695
 - Federica Papa, matricola 597084
-- Irene Poli
+- Irene Poli, matricola 604855
 
 Per la corretta riuscita del progetto sono stati utilizzati due strumenti di validazione:
 

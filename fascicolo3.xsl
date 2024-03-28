@@ -15,14 +15,9 @@
             </head>
             <body>
 
-                <h1 class="title">
-                    <xsl:value-of select="tei:TEI[@xml:id='terzo_fascicolo']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:id='pagina3']" />
-                </h1>
-                <figure class="statua">
-                    <a href="index.html">
-                        <img src="img_ciano1.jpeg" />
-                    </a>
-                </figure>
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano1.jpeg" />
+                </a>
                 <main>
                     <section id="descrizione" class="descrizione">
                         <img src="statua3_ciano_pag1.jpeg" alt="risorsa_primaria_img" />
@@ -94,9 +89,9 @@
                     
                 </main>
                 <!-- footer -->
-                <figure class="statua">
-                    <img src="immagine_ciano2.jpeg" />
-                </figure>
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano2.jpeg" />
+                </a>
                 <footer class="riferimenti">
                     <section>
                         <div>
@@ -313,4 +308,13 @@
     </xsl:template>
 
     
+
+    <!--Template righe stampate-->
+   <xsl:template match="//tei:ab//tei:lb">
+    <xsl:for-each select="current()">
+      <xsl:element name="br">
+        </xsl:element>
+    </xsl:for-each>
+   </xsl:template>
+
 </xsl:stylesheet>

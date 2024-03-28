@@ -14,15 +14,9 @@
                 <script src="https://kit.fontawesome.com/631a8dead6.js" crossorigin="anonymous"></script>
             </head>
             <body>
-
-                <h2 class="title">
-                    <xsl:value-of select="tei:TEI[@xml:id='primo_fascicolo']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:id='pagina1']" />
-                </h2>
-                <figure class="statua">
-                    <a href="index.html">
-                        <img src="img_ciano1.jpeg" />
-                    </a>
-                </figure>
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano1.jpeg" />
+                </a>
                 <main>
                     <div id="descrizione" class="descrizione">
                         <img src="statua1_ciano_pag1.jpeg" alt="risorsa_primaria_img" />
@@ -91,9 +85,9 @@
                     
                 </main>
                 <!-- footer -->
-                <figure class="statua">
-                    <img src="immagine_ciano2.jpeg" />
-                </figure>
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano2.jpeg" />
+                </a>
                 <footer class="riferimenti">
                     <section>
                         <div>
@@ -303,6 +297,15 @@
             </ul>
         </xsl:for-each> 
     </xsl:template>
+
+     <!--Template righe stampate-->
+   <xsl:template match="//tei:ab//tei:lb">
+    <xsl:for-each select="current()">
+      <xsl:element name="br">
+        </xsl:element>
+    </xsl:for-each>
+   </xsl:template>
+
 
 
     

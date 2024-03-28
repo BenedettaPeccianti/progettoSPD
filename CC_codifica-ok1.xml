@@ -1054,10 +1054,10 @@
                         Indirizzo Telegrafico <orgName ref="#Marisegrege"><choice><abbr>MARISEGREGE</abbr><expan>Ufficio del segretario generale</expan></choice></orgName>
                         <pc>-</pc><name type="place" ref="#Roma">ROMA</name>
                     </ab>
-                    <ab n="6" facs="numero_protocollo3" xml:id="n_prot3">
+                    <ab n="6" facs="#numero_protocollo3" xml:id="n_prot3">
                         <choice><orig>Prot.</orig><reg resp="#FP">Protocollo</reg></choice>
                         <choice><orig>N.</orig><reg resp="#FP">Numero</reg></choice>
-                        <num type="cardinal">307<pc>/</pc>2</num>Allegati<ellipsis><metamark>______ </metamark></ellipsis>
+                        <num type="cardinal">307<pc>/</pc>2</num> Allegati<ellipsis><metamark>______ </metamark></ellipsis>
                     </ab>
                     <ab n="7" facs="#argomento3" xml:id="arg3">
                         Argomento Busto in bronzo dell'<roleName ref="#CostanzoCiano">Ammiraglio </roleName>
@@ -3114,7 +3114,7 @@
                         <note resp="#IP">Parte scritta a macchina</note>
                         <note resp="#IP">Questa parte è in parte coperta dall'appunto scritto a mano e allegato alla pagina</note>
                         <lb n="1"/> Al <orgName ref="#Maristat"><choice><abbr>MARISTAT</abbr><expan>Stato Maggiore della Marina Militare</expan></choice></orgName> 
-                        <lb n="2"/><orgName ref="UfficioStorico">Ufficio Storico</orgName>
+                        <lb n="2"/><orgName ref="#UfficioStorico">Ufficio Storico</orgName>
                         <lb n="3"/> <settlement ref="#Roma" rend="underline"><pc>=</pc> ROMA <pc>=</pc></settlement>
                         <lb n="4"/><orgName ref="#Maridipart"><choice><abbr>MARIDIPART</abbr><expan>Dipartimento militare marittimo</expan></choice></orgName>  <pc>=</pc> SEDE <pc>=</pc>
                         <lb n="5"/>mite: <orgName ref="#Comar"><choice> <abbr> COMAR </abbr> <expan>Comando Marina</expan> </choice></orgName>    <pc>=</pc> SEDE <pc>=</pc>
@@ -3129,7 +3129,7 @@
                         <lb n="1"/>atua in argomento, già sistemata nella
                         <lb n="2"/>iardino Pubblico di <settlement ref="#Spezia">La Spezia</settlement> adiacen<pc force="strong">-</pc>
                         <lb n="3"/>zzo del Comune <choice><sic>fù</sic><corr>fu</corr></choice> ceduta alla <choice><abbr>M.M.</abbr><expan>Marina Militare</expan></choice> su<pc force="strong">-</pc>
-                        <lb n="4"/>la cessazzione delle ostilità e traspo<c rend="underline">r</c>
+                        <lb n="4"/>la cessazione delle ostilità e traspo<c rend="underline">r</c>
                         <lb n="5"/>esto <orgName ref="#MuseoTecnicoSpezia">Museo</orgName> nel <date when="1964-03">Marzo 1964</date>.
                     </ab>
 
@@ -3146,7 +3146,7 @@
                                 <lb break="no" n="5"/>zo è di <choice> <orig>mt<pc>.</pc></orig><reg>metri</reg></choice>
                                 <num type="decimal">3,50</num> ed il suo perso stimato è di circa
                                 
-                                <lb n="6"/><num type="cardinal">2</num> <choice> <orig>Tonn<pc>.</pc></orig><reg>Tonnelate</reg></choice>
+                                <lb n="6"/><num type="cardinal">2</num> <choice> <abbr>Tonn<pc>.</pc></abbr><expan>Tonnelate</expan></choice>
                             </item>
 
                             <item n="2" facs="#elem2_testo3_11"  xml:id="el2_3_11">
@@ -3154,40 +3154,46 @@
                                 3°<pc>)</pc> - Durante la messa in sito delle artiglierie
                                 
                                 <lb n="8"/>sul piano della costruenda tettoia nel giardino
-                                <lb n="9"/>del <orgName ref="#MuseoTecnicoSpezia">Museo</orgName> si è presentata la possibilità di siste
+                                <lb n="9"/>del <orgName ref="#MuseoTecnicoSpezia">Museo</orgName> si è presentata la possibilità di sist<c rend="underline">e</c>
                                 <lb break="no" n="10"/>mare questa statua, ponendola sopra un basamento
                                 <lb n="11"/>metallico, costituito dalla parte inferiore di un 
                                 <lb n="12"/>affusto di cannone di grosso calibro, che non è
                                 <lb n="13"/>né possibile né conveniente conservare e che per-
                                 <lb break="no" n="14"/>tanto dovrà essere proposto per la demolizione.
-                                <lb n="15"/>Questo basamento del peso di circa <choice> <orig>Tonn<pc>.</pc></orig><reg>Tonnelate</reg></choice>
-                                <num type="cardinal">3<pc>,</pc>5<pc>+</pc>4</num>
+                                <lb n="15"/>Questo basamento del peso di circa <choice> <abbr>Tonn<pc>.</pc></abbr><expan>Tonnelate</expan></choice>
+                                <num type="cardinal">3<pc>,</pc>5<add place="inline"><pc>+</pc>4</num></add>
                                 
-                                <lb n="16"/>e del diametro di <choice> <orig>mt<pc>.</pc></orig><reg>metri</reg></choice>
-                                <num type="ordinal">5°</num><num type="decimal">1,80</num> dà sufficiente affida-
-                                
+                                <lb n="16"/>e del diametro di <choice> <abbr>mt<pc>.</pc></abbr><expan>metri</expan></choice>
+                                <num type="ordinal">5°</num><num type="decimal">1,80</num> dà sufficiente affida<pc force="strong">-</pc>
                                 <lb break="no" n="17"/>mento di stabilità al complesso.
                                 <lb n="18"/>L'unione della statua al basamento è stata
                                 <lb n="19"/>realizzata mediante struttura in acciaio saldata
-                                <lb n="20"/>al basamento stesso ed unita alla struttura por-
+                                <lb n="20"/>al basamento stesso ed unita alla struttura por<pc force="strong">-</pc>
                                 <lb break="no" n="21"/>tante della statua mediante perni a vite che ne 
                                 <lb n="22"/>consentono l'eventuale smontaggio.
-                                <lb n="23"/>Il fissaggio definitivo della struttura metal
-                                <lb break="no" n="24"/>lica sarà effettuato mediante una colata di calce-
+                                <lb n="23"/>Il fissaggio definitivo della struttura meta<c rend="underline">l</c>
+                                <lb break="no" n="24"/>lica sarà effettuato mediante una colata di calce<pc force="strong">-</pc>
                                 <lb break="no" n="25"/>struzzo che è in corso di compimento.
                             </item>
                         </list>
-                        
                     </ab>
 
                     <ab n="7" facs="#timbroUffStorico3_11" xml:id="timbroUffStorico_3_11">
-                        <note resp="#IP">Parte scritta a mano</note>
+                        <note resp="#IP">Timbro ad inchiostro con simbolo scritto a mano</note>
+                        <lb n="1"/><orgName ref="#UfficioStorico">UFFICIO STORICO M. M.</orgName>
+                        <lb n="2"/><choice><abbr>Prot.</abbr><expan>Protocollo</expan></choice> <choice><abbr>N.</abbr><expan>Numero</expan></choice>   <num type="cardinal">1245</num>
+                        <lb n="3"/>Data     <date when="1970-03-05">-5 <choice><abbr>MAR.</abbr><expan>MARZO</expan></choice> 1970</date>
+                        <lb n="4"/>Class 
                         E<pc>/</pc><num type="cardinal">3</num>
                     </ab>
 
                     <ab n="8" facs="#timbroComune3_11" xml:id="timbroComune_3_11">
-                        <note resp="#IP">Parte scritta a mano</note>
-                        E<pc>/</pc><num type="cardinal">3</num>
+                        <note resp="#IP">Timbro ad inchiostro con numero scritto a mano</note>
+                        <lb n="1"/>COM<unclear reason="faded">A</unclear>N<unclear reason="faded">D</unclear>O MA<unclear reason="faded">R</unclear>I<gap reason="illegible"/> <settlement ref="#Spezia"><gap reason="illegible"/>a Spezia</settlement>
+                        <lb n="2"/>CORRISPONDENZA DI PASSA<gap reason="illegible"/>GIO
+                        <lb n="3"/><choice><abbr>Prot.</abbr><expan>Protocollo</expan></choice> </choice><abbr>N.</abbr><expan>Numero</expan></choice>      <num type="cardinal">76</num>
+                        <lb n="4"/><gap reason="illegible"/> <date when="19">28 FEB. 1970</date>
+                        <lb n="5"/>
                     </ab>
 
                     <ab n="9" facs="#timbroComandante3_11" xml:id="timbroComandante_3_11">

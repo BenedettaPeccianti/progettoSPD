@@ -14,16 +14,9 @@
                 <script src="https://kit.fontawesome.com/631a8dead6.js" crossorigin="anonymous"></script>
             </head>
             <body>
-       
-                <h1 class="title">
-                    <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:type='main']" />
-                </h1>
-                <h2>
-                    <xsl:value-of select="tei:TEI[@xml:id='fascicolo']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:type='sub']" />
-                </h2>
-                <figure class="statua">
+                <a class= "statua" href="index.html">
                     <img src="img_ciano1.jpeg" />
-                </figure>
+                </a>
                 <main>
                     <nav id="info">
                         <div class="card">
@@ -57,7 +50,7 @@
                             <li><a href="pagina_persone.html">Vai alla lista delle persone</a></li>
                             <li><a href="pagina_organizzazioni.html">Vai alla lista delle organizzazioni</a></li>
                             <li><a href="pagina_oggetti.html">Vai alla lista delle navi</a></li>
-                            <li><a href="#riferimenti">Footer</a></li>
+                          
                         </ul>
                     </nav>
                     
@@ -71,9 +64,9 @@
                     
                 </main>
                 <!-- footer -->
-                <figure class="statua">
-                    <img src="immagine_ciano2.jpeg" />
-                </figure>
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano2.jpeg" />
+                </a>
                 <footer class="riferimenti">
                     <section>
                         <div>

@@ -7,24 +7,18 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
                 <link rel="stylesheet" type="text/css" href="stile_pag.css" />
+                
                 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
                 <!-- Font awesome -->
                 <script src="https://kit.fontawesome.com/631a8dead6.js" crossorigin="anonymous"></script>
             </head>
             <body>
-                <!-- Informazioni titolo -->
-                <h1 class="title">
-                    <xsl:value-of select="tei:TEI[@xml:id='fascicoli']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:type='main']" />
-                </h1>
-                <h2>
-                    <xsl:value-of select="tei:TEI[@xml:id='fascicoli']/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:type='sub']" />
-                </h2>
-                <figure class="statua">
-                    <a href="index.html">
-                        <img src="img_ciano1.jpeg" />
-                    </a>
-                </figure>
+
+         
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano1.jpeg" />
+                </a>
                 <main>
                     <div class="card_descrizione">
                         <xsl:apply-templates select="//tei:sourceDesc[@xml:id='intero_documento']" />
@@ -74,16 +68,17 @@
                             <li><a href="pagina_posti.html">Vai alla lista dei posti</a></li>
                             <li><a href="pagina_organizzazioni.html">Vai alla lista delle organizzazioni</a></li>
                             <li><a href="pagina_oggetti.html">Vai alla lista delle navi</a></li>
-                            <li><a href="#riferimenti">Footer</a></li>
+                          
                         </ul>
                     </nav>
-                    
-                
+                   
                 </main>
                 <!-- footer -->
-                <figure class="statua">
-                    <img src="immagine_ciano2.jpeg" />
-                </figure>
+                <a class= "statua" href="index.html">
+                    <img src="img_ciano2.jpeg" />
+                </a>
+           
+                
                 <footer class="riferimenti">
                     <section>
                         <div>

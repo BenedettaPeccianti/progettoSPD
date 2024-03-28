@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (expanElement && expanElement.classList.contains("expan")) {
             abbrElement.addEventListener("mouseenter", function() {
                 expanElement.style.display = "inline";
-                expanElement.style.backgroundColor = "white";
+                expanElement.style.backgroundColor = "#668cff";
             });
             
             abbrElement.addEventListener("mouseleave", function() {
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (expanElement && expanElement.classList.contains("reg")) {
             abbrElement.addEventListener("mouseenter", function() {
                 expanElement.style.display = "inline";
-                expanElement.style.backgroundColor = "white";
+                expanElement.style.backgroundColor = "#668cff";
             });
             
             abbrElement.addEventListener("mouseleave", function() {

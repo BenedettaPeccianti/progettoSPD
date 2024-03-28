@@ -785,9 +785,9 @@
                 <zone ulx="37" uly="18" lrx="220" lry="109" xml:id="stemma1_2" />
                 <zone ulx="301" uly="112" lrx="573" lry="222" xml:id="destinatario1_2" />
                 <!--il mittente è il museo storico navale-->
-                <zone ulx="6" uly="125" lrx="228" lry="239" xml:id="mittente1_2"/>
-                <zone ulx="7" uly="217" lrx="223" lry="239" xml:id="numero_protocollo1_2" />
-                <zone ulx="95" uly="238" lrx="509" lry="256" xml:id="argomento1_2" />
+                <zone ulx="23" uly="117" lrx="213" lry="159" xml:id="mittente1_2"/>
+                <zone ulx="8" uly="172" lrx="225" lry="234" xml:id="numero_protocollo1_2"/>
+                <zone ulx="88" uly="237" lrx="524" lry="269" xml:id="argomento1_2"/>
                 <zone ulx="156" uly="291" lrx="573" lry="462" xml:id="testo1_2" />
                 <zone ulx="2" uly="290" lrx="152" lry="502" xml:id="decretazione1_2" />
                 <zone ulx="289" uly="518" lrx="481" lry="600" xml:id="conservatore1_2" />

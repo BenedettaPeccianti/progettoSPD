@@ -945,7 +945,7 @@
                         Allegati <num type="cardinal" value="2">due</num>
                     </ab>
 
-                    <ab n="6" facs="#mittente1_2" xml:id="argomentoTel1_2">
+                    <ab n="6" facs="#argomento1_2" xml:id="argomentoTel1_2">
                         Argomento Busto in bronzo dell'<roleName ref="#CostanzoCiano">Ammiraglio </roleName>
                         <name type="person" ref="#CostanzoCiano"> Costanzo Ciano.</name>
                     </ab>
@@ -961,7 +961,7 @@
                         <choice> <orig> febr.</orig> <reg resp="#BP"> febbraio</reg> </choice> 1961</date>
 
                         <del> <gap reason="illegible" /></del> <date when="1961-02-09"> 9 
-                        <choice> <reg resp="#BP"> febbraio</reg> <orig> febr.</orig> </choice> 1961</date>
+                        <choice><orig> febr.</orig><reg resp="#BP">febbraio</reg></choice> 1961</date>
                     </ab>
 
                     <ab n="8" facs="#testo1_2" xml:id="testo_1_2">

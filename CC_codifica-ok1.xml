@@ -920,7 +920,7 @@
                         <orgName ref="#MarinaMilitare"> Marina Militare </orgName>
                     </ab>
                     <ab n="4" facs="#destinatario1_2" xml:id="destinatario_1_2">
-                        <orgName ref="#IntendenzaFinanza"> Intendenza di Finanza di  = <name type="place" ref="#Livorno"> Livorno</name ></orgName>
+                        <orgName ref="#IntendenzaFinanza"> Intendenza di Finanza = <name type="place" ref="#Livorno"> Livorno</name ></orgName>
                         e, per conoscenza:  
                         <orgName ref="#Maristat"><choice><abbr>MARISTAT</abbr><expan>Stato Maggiore della Marina Militare</expan></choice></orgName>
                         =  <orgName ref="#UfficioStorico">Ufficio Storico</orgName> = <name type="place" ref="#Roma"> Roma</name>

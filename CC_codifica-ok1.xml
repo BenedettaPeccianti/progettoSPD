@@ -3205,7 +3205,7 @@
                                 <lb n="13"/>né possibile né conveniente conservare e che per-
                                 <lb break="no" n="14"/>tanto dovrà essere proposto per la demolizione.
                                 <lb n="15"/>Questo basamento del peso di circa <choice> <abbr>Tonn<pc>.</pc></abbr><expan>Tonnelate</expan></choice>
-                                <num type="cardinal">3<pc>,</pc>5<add place="inline"><pc>+</pc>4</num></add>
+                                <num type="cardinal">3<pc>,</pc>5<add place="inline"><pc>+</pc>4</add></num>
                                 
                                 <lb n="16"/>e del diametro di <choice> <abbr>mt<pc>.</pc></abbr><expan>metri</expan></choice>
                                 <num type="ordinal">5°</num><num type="decimal">1,80</num> dà sufficiente affida<pc force="strong">-</pc>
@@ -3235,7 +3235,8 @@
                         <note resp="#IP">Timbro ad inchiostro con numero scritto a mano</note>
                         <lb n="1"/>COM<unclear reason="faded">A</unclear>N<unclear reason="faded">D</unclear>O MA<unclear reason="faded">R</unclear>I<gap reason="illegible"/> <settlement ref="#Spezia"><gap reason="illegible"/>a Spezia</settlement>
                         <lb n="2"/>CORRISPONDENZA DI PASSA<gap reason="illegible"/>GIO
-                        <lb n="3"/><choice><abbr>Prot.</abbr><expan>Protocollo</expan></choice> </choice><abbr>N.</abbr><expan>Numero</expan></choice>      <num type="cardinal">76</num>
+                        <lb n="3"/><choice><abbr>Prot.</abbr><expan>Protocollo</expan></choice> 
+                        <choice><abbr>N.</abbr><expan>Numero</expan></choice><num type="cardinal">76</num>
                         <lb n="4"/><gap reason="illegible"/> <date when="19">28 FEB. 1970</date>
                         <lb n="5"/>
                     </ab>
@@ -3249,12 +3250,12 @@
                         <lb n="2"/>d'ordine
                         <lb n="3"/>IL COMANDANTE IN 2°
                         <lb n="4"/><roleName role="capitanoVasc">Capitano di Vascello</roleName>
-                        <lb n="5"/>(<persName ref="#CiroRusso">Ciro Russo<persName>)
+                        <lb n="5"/>(<persName ref="#CiroRusso">Ciro Russo</persName>)
                         <lb n="6"/><unclear reason="eccentric_ductus" resp="#IP">Sign</unclear>
                     </ab>
                 </div>
 
-                <!--DA FARE LA 12-->
+                <!-- DA FARE LA 12
 
                 <div facs="#statua3_ciano_pag_13" n="13">
                     <ab n="1" facs="#numPagina3_13" xml:id="numPagina_3_13">
@@ -3296,7 +3297,7 @@
                         <lb n="2"/>(<choice><abbr>C.</abbr><expan cert="low" resp="#IP">Conservatore</expan></choice><choice><abbr>Amm.</abbr><expan>Ammiraglio</expan></choice>(r) <persName ref="#BenedettoLuchetti">Benedetto LUCHETTI</persName>)
                         <lb n="3"/><unclear reason="eccentric_ductus" resp="#IP">Sign</unclear>
                     </ab>
-                </div>
+                </div> -->
             </body>
         </text>
 

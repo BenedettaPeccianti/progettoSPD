@@ -280,7 +280,7 @@
                         <persName xml:id="BenedettoLuchetti">
                             <forename>Benedetto</forename>
                             <surname> Luchetti </surname>
-                            <roleName> Direttore e Conservatore del <orgName ref="MuseoTecnicoSpezia">Museo Tecnico Navale di La Spezia </orgName>Controammiraglio</roleName>
+                            <roleName> Direttore e Conservatore del <orgName ref="#MuseoTecnicoSpezia">Museo Tecnico Navale di La Spezia </orgName>Controammiraglio</roleName>
                         </persName>
                         <sex> M </sex>
                     </person>
@@ -369,7 +369,7 @@
                         <persName xml:id="CiroRusso">
                             <forename>Ciro</forename>
                             <surname> Russo </surname>
-                            <roleName> Comandante in seconda, Capitano di Vascello <orgName>Comando Marina La Spezia </orgName></roleName>
+                            <roleName> Comandante in seconda, Capitano di Vascello <orgName ref="#ComandoSpezia">Comando Marina La Spezia </orgName></roleName>
                         </persName>
                         <sex> M </sex>
                     </person>
@@ -517,6 +517,15 @@
                         <!--le uniche informazioni trovate a proposito del comar sono al seguente link 
                         https://it.wikipedia.org/wiki/Dipartimento_marittimo#Dipartimento_militare_marittimo_%22Adriatico%22_%E2%80%93_MARIDIPART_Ancona-->
                         </desc>
+                    </org>
+
+                    <org xml:id="ComandoSpezia">
+                        <orgName type="marina">Comando Interregionale Marittimo Nord (MARINA NORD)</orgName>
+                        <desc> è situato alla Spezia e assolve compiti nei settori logistico/territoriale, amministrativo, legale, presidio, difesa installazioni, 
+                        mobilitazione/completamento delle forze, polizia militare, protezione civile, antinfortunistica e tutela ambientale, supporto operativo
+                         e tutela delle informazioni classificate e del segreto di Stato.</desc>
+                        <idno type="URI">https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-logistico/dipartimentali/marittimo_nord/Pagine/default.aspx</idno>
+                        
                     </org>
 
                     <org xml:id="IstiPoligrafico">
@@ -2601,9 +2610,44 @@
                 <zone ulx="13" uly="424" lrx="178" lry="550" xml:id="timbroUffStorico3_11"/>
                 <zone ulx="6" uly="554" lrx="178" lry="649" xml:id="timbroComune3_11"/>
                 <zone ulx="7" uly="649" lrx="179" lry="748" xml:id="timbroComandante3_11"/>
+                <zone ulx="88" uly="646" lrx="210" lry="754" xml:id="firmaComandante3_11" />
             </surface>
 
+            <!--DOCUMENTO 12 DA FARE-->
+            <surface n="12" xml:id="statua3_ciano_pag11">
+                <graphic url='statua3_ciano_pag11.jpeg' width='598.4px' height='833.4px' />
+                <zone ulx="29" uly="15" lrx="256" lry="58" xml:id="timbro_dir3_11" />
+                <zone ulx="313" uly="9" lrx="574" lry="74" xml:id="data3_11" />
+                <zone ulx="15" uly="70" lrx="264" lry="360" xml:id="notaLS3_11"/>
+                <zone ulx="286" uly="107" lrx="589" lry="272" xml:id="mittente3_11"/>
+                <zone ulx="289" uly="285" lrx="589" lry="364" xml:id="testoTagliato3_11"/>
+                <!--<zone ulx="180" uly="363" lrx="598" lry="740" xml:id="testo3_11"/>-->
+                <zone ulx="182" uly="365" lrx="591" lry="452" xml:id="elem1_testo3_11"/>
+                <zone ulx="184" uly="458" lrx="592" lry="743" xml:id="elem2_testo3_11"/>
+                <zone ulx="13" uly="424" lrx="178" lry="550" xml:id="timbroUffStorico3_11"/>
+                <zone ulx="6" uly="554" lrx="178" lry="649" xml:id="timbroComune3_11"/>
+                <zone ulx="7" uly="649" lrx="179" lry="748" xml:id="timbroComandante3_11"/>
+                <zone ulx="88" uly="646" lrx="210" lry="754" xml:id="firmaComandante3_11" />
+            </surface>
+
+            <!--DOCUMENTO 13 DA FARE-->
+            <surface n="13" xml:id="statua3_ciano_pag13">
+                <graphic url='statua3_ciano_pag13.jpeg' width='586.4px' height='821.4px' />
+                <zone ulx="236" uly="0" lrx="323" lry="11" xml:id="numPagina3_13"/>
+                <zone ulx="60" uly="64" lrx="571" lry="366" xml:id="testo3_13"/>
+                <zone ulx="258" uly="428" lrx="499" lry="515" xml:id="firma3_13"/>
+            </surface>
+
+            <!--DOCUMENTO 14 IMMAGINE DA FARE-->
+            <surface n="11" xml:id="statua3_ciano_pag11">
+                <graphic url='statua3_ciano_pag11.jpeg' width='598.4px' height='833.4px' />
+                
+            </surface>
         </facsimile>
+
+
+
+
         <text type="telegramma" xml:id="fascicolo_3">
             <body xml:id="fascicolo_testo3">
                 <div facs="#statua3_ciano_pag1" n="1">
@@ -3138,7 +3182,7 @@
                         <list type="gloss" rend="numbered">
                             <item n="1" facs="#elem1_testo3_11"  xml:id="el1_3_11">
                                 <lb n="1"/>
-                                <num type="ordinal">2°</num><pc>)</pc> - Trattasi di pregevole opera d'arte,dello
+                                <num type="ordinal">2°</num><pc>)</pc> <pc>-</pc> Trattasi di pregevole opera d'arte,dello
                                 
                                 <lb n="2"/>sculture <name type="person" ref="#FrancescoMessina">Francesco MESSINA </name>, che rappresenta l'Am
                                 <lb  break="no" n="3"/><roleName role="Ammiraglio">ammiraglio</roleName> <persName ref="#CostanzoCiano">CIANO</persName> , in piedi,con mantello al vento,a
@@ -3151,7 +3195,7 @@
 
                             <item n="2" facs="#elem2_testo3_11"  xml:id="el2_3_11">
                                 <lb n="7"/>
-                                3°<pc>)</pc> - Durante la messa in sito delle artiglierie
+                                3°<pc>)</pc> <pc>-</pc> Durante la messa in sito delle artiglierie
                                 
                                 <lb n="8"/>sul piano della costruenda tettoia nel giardino
                                 <lb n="9"/>del <orgName ref="#MuseoTecnicoSpezia">Museo</orgName> si è presentata la possibilità di sist<c rend="underline">e</c>
@@ -3197,13 +3241,62 @@
                     </ab>
 
                     <ab n="9" facs="#timbroComandante3_11" xml:id="timbroComandante_3_11">
-                        <note resp="#IP">Parte scritta a mano</note>
-                        E<pc>/</pc><num type="cardinal">3</num>
+                        <note resp="#IP">Timbro ad inchiostro</note>
+                        <orgName ref="#ComandoSpezia"><pc>-</pc>COMANDO MARINA <pc>-</pc>
+                        La Spezia
+                        </orgName>
+                        <lb n="1"/>VISTO
+                        <lb n="2"/>d'ordine
+                        <lb n="3"/>IL COMANDANTE IN 2°
+                        <lb n="4"/><roleName role="capitanoVasc">Capitano di Vascello</roleName>
+                        <lb n="5"/>(<persName ref="#CiroRusso">Ciro Russo<persName>)
+                        <lb n="6"/><unclear reason="eccentric_ductus" resp="#IP">Sign</unclear>
                     </ab>
                 </div>
 
+                <!--DA FARE LA 12-->
 
+                <div facs="#statua3_ciano_pag_13" n="13">
+                    <ab n="1" facs="#numPagina3_13" xml:id="numPagina_3_13">
+                    <pc>-</pc> <choice><abbr>pag.</abbr><expan>pagina</expan></choice> <num type="cardinal">2</num> <pc>-</pc>
+                    </ab>
+                    <ab n="2" facs="#testo3_13" xml:id="testo_3_13">
+                    <lb n="1"/>Il basamento poggia su un terreno molto sciolto, leggermente 
+                    <lb n="2"/>rinforzato da una massicciata in pietrame, con una pressione
+                    <lb n="3"/>specifica di circa <num type="cardinal">0,3</num> <choice><abbr>Kg</abbr><expan>Chilogrammi</expan></choice><pc>/</pc><choice><abbr>cmq.</abbr><expan>centimetri cubo</expan></choice> e dovrebbe, pertanto, non dar
+                    <lb n="4"/>luogo a sensibili cedimenti.
 
+                    <lb n="5"/>Qualora si verificassero spostamenti dalla verticale per 
+                    <lb n="6"/>effetto di cedimento del terreno, la statua ed il basamento p<c rend="underline">o</c>
+                    <lb break="no" n="7"/>tranno, senza difficoltà, essere poste in altra posizione pre<pc force="strong">-</pc>
+                    <lb break="no" n="8"/>via costruzione di una conveniente piattaforma in calcestruzzo 
+                    <lb n="9"/>armato che lo scrivente, per indisponibilità di fondi e di <choice><orig>ma<pc force="strong">-</pc> 
+                    <lb n="10"/>nod'opera</orig><reg>mano d'opera</reg></choice>, non ha potuto realizzare.
+
+                    <item n="4" facs="#elem4_testo3_11"  xml:id="el4_3_11">
+                    <lb n="11"/>
+                    <num type="ordinal">4°</num><pc>)</pc> <pc>-</pc>   Appena possibile la sistemazione sarà completata coprendo 
+                    <lb n="12"/>il basamento metallico con scogli di mare e pietrame fino alla 
+                    <lb n="13"/>altezza dei piedi della statua (<choice><abbr>mt.</abbr><expan>metri</expan></choice><num type="cardinal">0,85</num> dal terreno).
+
+                    <item n="5" facs="#elem5_testo3_11"  xml:id="el5_3_11">
+                    <lb n="14"/>
+                    <num type="ordinal">5°</num><pc>)</pc> <pc>-</pc>  Il lavoro è stato eseguito in <date when="1970-02-26">data 26</date> corrente dal perso<pc force="strong">-</pc>
+                    <lb break="no" n="15"/>nale del <orgName ref="#MuseoTecnicoSpezia">Museo</orgName>, con l'ausilio di una autogrue concessa dal lo<pc force="strong">-</pc> 
+                    <lb break="no" n="16"/>cale Arsenale, senza alcuna spesa apprezzabile.
+
+                    <item n="6" facs="#elem6_testo3_11"  xml:id="el6_3_11">
+                    <lb n="15"/>
+                    <num type="ordinal">6°</num><pc>)</pc> <pc>-</pc>  Allego uno schizzo quotato relativo alla sistemazione in
+                    <lb n="18"/>argomento.<pc>=</pc>
+                    </ab>
+
+                    <ab n="3" facs="#firma3_13" xml:id="firma_3_13">
+                        <lb n="1"/><roleName role="direttore">IL DIRETTORE CONSERVATORE</roleName>
+                        <lb n="2"/>(<choice><abbr>C.</abbr><expan cert="low" resp="#IP">Conservatore</expan></choice><choice><abbr>Amm.</abbr><expan>Ammiraglio</expan></choice>(r) <persName ref="#BenedettoLuchetti">Benedetto LUCHETTI</persName>)
+                        <lb n="3"/><unclear reason="eccentric_ductus" resp="#IP">Sign</unclear>
+                    </ab>
+                </div>
             </body>
         </text>
 

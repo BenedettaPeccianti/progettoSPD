@@ -20,5 +20,5 @@ Per la corretta riuscita del progetto sono stati utilizzati due strumenti di val
  
 ```
 
-# Per poter visualizzare l'anteprima del progetto è sufficiente
+# Per poter visualizzare l'anteprima del progetto è sufficiente cliccare il link sottostante
 https://benedettapeccianti.github.io/progettoSPD/

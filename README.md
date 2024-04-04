@@ -1,5 +1,5 @@
 # Progetto di Storia Pubblica Digitale A.A. 23-24
-Il progetto "Storia Pubblica Digitale è stato realizzato durante l'anno accademico 2023/2023 per l'esame della professoressa professor <b>Enrica Salvatori </b>, per la laurea magistrale in <b> Informatica Umanistica</b> dell'<b>Università di Pisa</b> da:
+Il progetto "Documenti relativi alla statua di Costanzo Ciano" è stato realizzato durante l'anno accademico 2023/2024 per l'esame della professoressa <b>Enrica Salvatori </b>, per il corso di Storia Pubblica Digitale della laurea magistrale in <b> Informatica Umanistica</b> dell'<b>Università di Pisa</b> da:
 
 - Benedetta Peccianti, matricola 600695
 - Federica Papa, matricola 597084

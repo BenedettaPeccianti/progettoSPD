@@ -120,7 +120,7 @@
         <h3>Identificativo documento:</h3>
         <p><xsl:value-of select="//tei:idno[@xml:id='id_due']"/></p>
         <h3>Conservazione:</h3>
-        <p><xsl:value-of select="//tei:msIdentifier/tei:repository"/></p>
+        <p><xsl:value-of select="//tei:msIdentifier/tei:repository[@xml:id='rep_F2']"/></p>
     </xsl:template>
     <xsl:template match="tei:physDesc[@xml:id='risorsa2']">
         <h2>Descrizione fisica</h2>

@@ -1516,7 +1516,7 @@
                         <msIdentifier xml:id="f_due">
                             <country type="nazione">Italia</country>
                             <settlement type="località">Roma</settlement>
-                            <repository>Archivio Marina Militare</repository>
+                            <repository xml:id="rep_F2">Archivio Marina Militare</repository>
                             <idno xml:id="id_due">B. 15 J. 140</idno>
                         </msIdentifier>
                         <msContents>

@@ -80,7 +80,7 @@
 
                                     </measureGrp> 
                                 </extent>
-                                <condition> 
+                                <condition xml:id="condiz_doc"> 
                                     <p>Il testo non presenta cancellature, ma timbri, firme e la carta si presenta ingiallita.</p>
                                 </condition>
                             </supportDesc>

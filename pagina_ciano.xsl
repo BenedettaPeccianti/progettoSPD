@@ -129,7 +129,7 @@
             <h3>Estensione:</h3>
             <p><xsl:value-of select="//tei:extent/tei:measureGrp/tei:measure"/></p>
             <h3>Condizioni:</h3>   
-            <p><xsl:value-of select="//tei:condition"/></p>
+            <p><xsl:value-of select="//tei:condition[@xml:id='condiz_doc']"/></p>
             <h3>Pagine:</h3>
             <p><xsl:value-of select="//tei:layoutDesc/tei:layout"/></p>
         </xsl:for-each>

@@ -75,7 +75,7 @@ area.forEach( riga => {
 
 
             if(numero.attributes[0].value === verifica){
-                numero.style.backgroundColor = "blue";
+                numero.style.backgroundColor = "#fff";
                 numero.style.color = "#000";
             }
 

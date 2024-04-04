@@ -47,7 +47,7 @@
                         <settlement>Venezia</settlement>
             
                         <!-- dove è conservato il manoscritto-->
-                        <repository>Ufficio storico della Marina Militare </repository>
+                        <repository xml:id="doc_int">Ufficio storico della Marina Militare </repository>
                         
                     </msIdentifier>
                     <!--contenuto intellettuale del manoscritto-->

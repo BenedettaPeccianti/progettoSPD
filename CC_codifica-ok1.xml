@@ -1541,7 +1541,7 @@
                                     
                                 </supportDesc>
                             </objectDesc>
-                            <handDesc hands="9"> 
+                            <handDesc xml:id="firma2" hands="9"> 
                                 <p> Il testo contiene varie firme, per un totale di 6. Inoltre, sono presenti i numeri dei protocolli del telegrafo scitti a mano, permettendo di osservare 
                                 9 diverse calligrafie.</p>
                             </handDesc>

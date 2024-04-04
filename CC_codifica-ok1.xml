@@ -743,7 +743,7 @@
                                     Sia le scritte a macchina che a mano, ma anche i timbri sono facilmente comprensibili.</condition>
                                 </supportDesc>
                             </objectDesc>
-                            <handDesc hands="9"> 
+                            <handDesc xml:id="firma1" hands="9"> 
                                 <p> Nel testo si possono trovare varie firme (se ne contano 6). Inoltre, sono presenti i numeri dei protocolli di telegrafo scritti a mano, per un totale di 
                                 9 diverse calligrafie.</p>
                             </handDesc>

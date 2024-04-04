@@ -2432,7 +2432,7 @@
                         <msIdentifier xml:id="f_tre">
                             <country type="nazione">Italia</country>
                             <settlement type="località">Roma</settlement>
-                            <repository>Archivio Marina Militare</repository>
+                            <repository xml:id="rep_F3">Archivio Marina Militare</repository>
                             <idno xml:id="id_tre">B. 18 f. 165</idno>
                         </msIdentifier>
                         <msContents>

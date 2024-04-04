@@ -113,12 +113,10 @@
             <h3>Titolo:</h3>
             <p><xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/></p>
             <p><xsl:value-of select="//tei:titleStmt/tei:title[@type='sub']"/></p>
-            <h3>Identificativo documento:</h3>
-            <p><xsl:value-of select="//tei:msIdentifier/tei:idno"/></p>
             <h3>Conservazione:</h3>
             <p><xsl:value-of select="//tei:msIdentifier/tei:repository[@xml:id='doc_int']"/></p>
             <h3>Data:</h3>
-            <p><xsl:value-of select="//tei:editionStmt/tei:edition"/></p>
+            <p><xsl:value-of select="//tei:editionStmt/tei:edition/tei:date"/></p>
         </xsl:for-each>   
     </xsl:template>
 

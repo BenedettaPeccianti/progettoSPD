@@ -134,7 +134,7 @@
             <p><xsl:value-of select="//tei:layoutDesc/tei:layout"/></p>
         </xsl:for-each>
         <h3>Mani:</h3>
-            <p><xsl:value-of select="//tei:handDesc"/></p>
+            <p><xsl:value-of select="//tei:handDesc[@xml:id='firma_docint']"/></p>
     </xsl:template>
     
     <!--Storia-->

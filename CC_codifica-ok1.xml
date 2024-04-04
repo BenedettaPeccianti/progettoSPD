@@ -93,7 +93,7 @@
 
                         <!--fa sempre parte della descrizione fisica del documento-->
                         <!--descrizione dei diversi tipi di scrittura del testo, in questo caso l'attributo ha come valore 1-->
-                        <handDesc hands="2">
+                        <handDesc xml:id="firma_docint" hands="2">
                             <p> Le pagine dei documenti sono scritte a macchina (<persName ref="#MMV">Marina Militare di Venezia</persName>); 
                             sono riportati a mano numeri di protocollo e firme.</p>
                         </handDesc>

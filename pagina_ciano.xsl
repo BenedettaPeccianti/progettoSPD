@@ -125,7 +125,7 @@
         <xsl:for-each select="tei:objectDesc/tei:supportDesc">
             <h2>Descrizione fisica</h2>
             <h3>Supporto:</h3>
-            <p><xsl:value-of select="//tei:support"/></p>
+            <p><xsl:value-of select="//tei:support[@xml:id='fasc123']"/></p>
             <h3>Estensione:</h3>
             <p><xsl:value-of select="//tei:extent/tei:measureGrp/tei:measure"/></p>
             <h3>Condizioni:</h3>   

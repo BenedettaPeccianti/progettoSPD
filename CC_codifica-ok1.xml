@@ -68,7 +68,7 @@
                         <objectDesc form="leaf"> 
                             <!--come risorsa ho messo il drive-->
                             <supportDesc material="paper" source="https://drive.google.com/drive/u/0/folders/1L95fANhh4-VjT4hlvX5kovGNrcgmy7t1">
-                                <support>
+                                <support xml:id="fasc123">
                                     <p> I fascicoli <material>cartacei</material> sono 3 composti da <measure unit="pages" quantity="6"> 28 pagine totali</measure>, comprese le 
                                     copertine dei fascicoli. </p>
                                 </support>

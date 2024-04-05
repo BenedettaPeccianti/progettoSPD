@@ -69,7 +69,8 @@
                             <!--come risorsa ho messo il drive-->
                             <supportDesc material="paper" source="https://drive.google.com/drive/u/0/folders/1L95fANhh4-VjT4hlvX5kovGNrcgmy7t1">
                                 <support>
-                                    <p>Fogli di carta.</p>
+                                    <p> I fascicoli <material>cartacei</material> sono 3 composti da <measure unit="pages" quantity="6"> 28 pagine totali</measure>, comprese le 
+                                    copertine dei fascicoli. </p>
                                 </support>
                                 <!--descrive la grandezza del documento è un altro elemento che si può trovare in file description-->
                                 <extent>
@@ -2614,20 +2615,20 @@
             </surface>
 
             <!--DOCUMENTO 12 DA FARE-->
-            <surface n="12" xml:id="statua3_ciano_pag11">
+            <surface n="12" xml:id="statua3_ciano_pag12">
                 <graphic url='statua3_ciano_pag11.jpeg' width='598.4px' height='833.4px' />
-                <zone ulx="29" uly="15" lrx="256" lry="58" xml:id="timbro_dir3_11" />
-                <zone ulx="313" uly="9" lrx="574" lry="74" xml:id="data3_11" />
-                <zone ulx="15" uly="70" lrx="264" lry="360" xml:id="notaLS3_11"/>
-                <zone ulx="286" uly="107" lrx="589" lry="272" xml:id="mittente3_11"/>
-                <zone ulx="289" uly="285" lrx="589" lry="364" xml:id="testoTagliato3_11"/>
+                <zone ulx="29" uly="15" lrx="256" lry="58" xml:id="timbro_dir3_12" />
+                <zone ulx="313" uly="9" lrx="574" lry="74" xml:id="data3_12" />
+                <zone ulx="15" uly="70" lrx="264" lry="360" xml:id="notaLS3_12"/>
+                <zone ulx="286" uly="107" lrx="589" lry="272" xml:id="mittente3_12"/>
+                <zone ulx="289" uly="285" lrx="589" lry="364" xml:id="testoTagliato3_12"/>
                 <!--<zone ulx="180" uly="363" lrx="598" lry="740" xml:id="testo3_11"/>-->
-                <zone ulx="182" uly="365" lrx="591" lry="452" xml:id="elem1_testo3_11"/>
-                <zone ulx="184" uly="458" lrx="592" lry="743" xml:id="elem2_testo3_11"/>
-                <zone ulx="13" uly="424" lrx="178" lry="550" xml:id="timbroUffStorico3_11"/>
-                <zone ulx="6" uly="554" lrx="178" lry="649" xml:id="timbroComune3_11"/>
-                <zone ulx="7" uly="649" lrx="179" lry="748" xml:id="timbroComandante3_11"/>
-                <zone ulx="88" uly="646" lrx="210" lry="754" xml:id="firmaComandante3_11" />
+                <zone ulx="182" uly="365" lrx="591" lry="452" xml:id="elem1_testo3_12"/>
+                <zone ulx="184" uly="458" lrx="592" lry="743" xml:id="elem2_testo3_12"/>
+                <zone ulx="13" uly="424" lrx="178" lry="550" xml:id="timbroUffStorico3_12"/>
+                <zone ulx="6" uly="554" lrx="178" lry="649" xml:id="timbroComune3_12"/>
+                <zone ulx="7" uly="649" lrx="179" lry="748" xml:id="timbroComandante3_12"/>
+                <zone ulx="88" uly="646" lrx="210" lry="754" xml:id="firmaComandante3_12" />
             </surface>
 
             <!--DOCUMENTO 13 DA FARE-->
@@ -2639,8 +2640,8 @@
             </surface>
 
             <!--DOCUMENTO 14 IMMAGINE DA FARE-->
-            <surface n="11" xml:id="statua3_ciano_pag11">
-                <graphic url='statua3_ciano_pag11.jpeg' width='598.4px' height='833.4px' />
+            <surface n="11" xml:id="statua3_ciano_pag14">
+                <graphic url='statua3_ciano_pag14.jpeg' width='598.4px' height='833.4px' />
                 
             </surface>
         </facsimile>
@@ -3255,7 +3256,7 @@
                     </ab>
                 </div>
 
-                <!-- DA FARE LA 12
+                <!-- DA FARE LA 12  
 
                 <div facs="#statua3_ciano_pag_13" n="13">
                     <ab n="1" facs="#numPagina3_13" xml:id="numPagina_3_13">

@@ -16,7 +16,7 @@ Per la corretta riuscita del progetto sono stati utilizzati due strumenti di val
 # Creazione dell'html con xsl
 Per la creazione della pagina html è necessario utilizzare questo riga di comando da terminale, cambiando i nomi dei file con nome_file.xml, nome_file.xsl o nome_file.html
 ```shell
-   $ java -jar tools/SaxonHE10-3J/saxon-he-10.3.jar -s:CC_codifica-ok1.xml.xml -xsl:pagina_ciano.xsl -o:index.html
+   $ java -jar tools/SaxonHE10-3J/saxon-he-10.3.jar -s:CC_codifica-ok1.xml -xsl:pagina_ciano.xsl -o:index.html
  
 ```
 

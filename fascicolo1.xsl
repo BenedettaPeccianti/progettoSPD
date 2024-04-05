@@ -120,7 +120,7 @@
         <h3>Identificativo documento:</h3>
         <p><xsl:value-of select="//tei:idno[@xml:id='uno']"/></p>
         <h3>Conservazione:</h3>
-        <p><xsl:value-of select="//tei:msIdentifier/tei:repository"/></p>
+        <p><xsl:value-of select="//tei:msIdentifier/tei:repository[@xml:id='rep_F1']"/></p>
     </xsl:template>
     <xsl:template match="tei:physDesc[@xml:id='risorsa1']">
     
@@ -130,7 +130,7 @@
         <h3>Condizioni del documento:</h3>
         <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:condition"/></p>
         <h3>Firme</h3>
-        <p><xsl:value-of select="//tei:handDesc"/></p>
+        <p><xsl:value-of select="//tei:handDesc[@xml:id='firma1']"/></p>
 
     </xsl:template>
      <xsl:template match="tei:history[@xml:id='one']">

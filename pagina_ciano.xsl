@@ -108,20 +108,17 @@
 
     <!-- Caratteristiche fascicoli-->
     <xsl:template match="tei:sourceDesc[@xml:id='intero_documento']">
-        <h1><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']" /></h1>
-        <h2><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']" /></h2>
         <xsl:for-each select="tei:msDesc">  
             <h2>Caratteristiche</h2>
             <h3>Titolo:</h3>
-            <p><xsl:value-of select="//tei:titleStmt/tei:title"/></p>
-            <h3>Identificativo documento:</h3>
-            <p><xsl:value-of select="//tei:msIdentifier/tei:idno"/></p>
+            <p><xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/></p>
+            <p><xsl:value-of select="//tei:titleStmt/tei:title[@type='sub']"/></p>
             <h3>Conservazione:</h3>
-            <p><xsl:value-of select="//tei:msIdentifier/tei:repository"/></p>
+            <p><xsl:value-of select="//tei:msIdentifier/tei:repository[@xml:id='doc_int']"/></p>
             <h3>Data:</h3>
-            <p><xsl:value-of select="//tei:editionStmt/tei:edition"/></p>
+            <p><xsl:value-of select="//tei:editionStmt/tei:edition/tei:date"/></p>
         </xsl:for-each>   
-    </xsl:template>
+    </xsl:template>
 
     <!--Descrizione fisica-->
     <xsl:template match="tei:physDesc[@xml:id='fascicoli12']">
@@ -132,12 +129,12 @@
             <h3>Estensione:</h3>
             <p><xsl:value-of select="//tei:extent/tei:measureGrp/tei:measure"/></p>
             <h3>Condizioni:</h3>   
-            <p><xsl:value-of select="//tei:condition"/></p>
+            <p><xsl:value-of select="//tei:condition[@xml:id='condiz_doc']"/></p>
             <h3>Pagine:</h3>
             <p><xsl:value-of select="//tei:layoutDesc/tei:layout"/></p>
         </xsl:for-each>
         <h3>Mani:</h3>
-            <p><xsl:value-of select="//tei:handDesc"/></p>
+            <p><xsl:value-of select="//tei:handDesc[@xml:id='firma_docint']"/></p>
     </xsl:template>
     
     <!--Storia-->

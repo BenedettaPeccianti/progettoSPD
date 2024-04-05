@@ -47,7 +47,7 @@
                         <settlement>Venezia</settlement>
             
                         <!-- dove è conservato il manoscritto-->
-                        <repository>Ufficio storico della Marina Militare </repository>
+                        <repository xml:id="doc_int">Ufficio storico della Marina Militare </repository>
                         
                     </msIdentifier>
                     <!--contenuto intellettuale del manoscritto-->
@@ -81,7 +81,7 @@
 
                                     </measureGrp> 
                                 </extent>
-                                <condition> 
+                                <condition xml:id="condiz_doc"> 
                                     <p>Il testo non presenta cancellature, ma timbri, firme e la carta si presenta ingiallita.</p>
                                 </condition>
                             </supportDesc>
@@ -94,7 +94,7 @@
 
                         <!--fa sempre parte della descrizione fisica del documento-->
                         <!--descrizione dei diversi tipi di scrittura del testo, in questo caso l'attributo ha come valore 1-->
-                        <handDesc hands="2">
+                        <handDesc xml:id="firma_docint" hands="2">
                             <p> Le pagine dei documenti sono scritte a macchina (<persName ref="#MMV">Marina Militare di Venezia</persName>); 
                             sono riportati a mano numeri di protocollo e firme.</p>
                         </handDesc>
@@ -724,7 +724,7 @@
                         <msIdentifier xml:id="f_uno">
                             <country type="nazione">Italia</country>
                             <settlement type="località">Roma</settlement>
-                            <repository>Archivio Marina Militare</repository>
+                            <repository xml:id="rep_F1">Archivio Marina Militare</repository>
                             <idno xml:id="uno">B. 10 J. 95</idno>
                         </msIdentifier>
                         <msContents>
@@ -744,7 +744,7 @@
                                     Sia le scritte a macchina che a mano, ma anche i timbri sono facilmente comprensibili.</condition>
                                 </supportDesc>
                             </objectDesc>
-                            <handDesc hands="9"> 
+                            <handDesc xml:id="firma1" hands="9"> 
                                 <p> Nel testo si possono trovare varie firme (se ne contano 6). Inoltre, sono presenti i numeri dei protocolli di telegrafo scritti a mano, per un totale di 
                                 9 diverse calligrafie.</p>
                             </handDesc>
@@ -1517,7 +1517,7 @@
                         <msIdentifier xml:id="f_due">
                             <country type="nazione">Italia</country>
                             <settlement type="località">Roma</settlement>
-                            <repository>Archivio Marina Militare</repository>
+                            <repository xml:id="rep_F2">Archivio Marina Militare</repository>
                             <idno xml:id="id_due">B. 15 J. 140</idno>
                         </msIdentifier>
                         <msContents>
@@ -1542,7 +1542,7 @@
                                     
                                 </supportDesc>
                             </objectDesc>
-                            <handDesc hands="9"> 
+                            <handDesc xml:id="firma2" hands="9"> 
                                 <p> Il testo contiene varie firme, per un totale di 6. Inoltre, sono presenti i numeri dei protocolli del telegrafo scitti a mano, permettendo di osservare 
                                 9 diverse calligrafie.</p>
                             </handDesc>
@@ -2433,7 +2433,7 @@
                         <msIdentifier xml:id="f_tre">
                             <country type="nazione">Italia</country>
                             <settlement type="località">Roma</settlement>
-                            <repository>Archivio Marina Militare</repository>
+                            <repository xml:id="rep_F3">Archivio Marina Militare</repository>
                             <idno xml:id="id_tre">B. 18 f. 165</idno>
                         </msIdentifier>
                         <msContents>
@@ -2454,7 +2454,7 @@
                                 </supportDesc>
                             </objectDesc>
                             <!--da sistemare con quante firme sono all'iterno del fascicolo-->
-                            <handDesc hands="9"> 
+                            <handDesc xml:id="firma3" hands="9"> 
                                 <p> Nel testo si possono trovare varie firme (se ne contano 6). Inoltre, sono presenti i numeri dei protocolli di telegrafo scritti a mano, per un totale di 
                                 9 diverse calligrafie.</p>
                             </handDesc>
